@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gadhvi.extcpl.Current_player">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:title="EXTCPL"
+        app:titleTextColor="#ffffff"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        />
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/player_image"
+        android:layout_gravity="center"
+        android:background="@drawable/round"
+    />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+
+        >
+
+        <TextView
+            android:id="@+id/player_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player name"
+            android:layout_gravity="center"
+
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/player_skill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Skills"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:id="@+id/player_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Tag Line"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/base_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Base Price"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/raise20"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/shape2"
+        android:layout_marginTop="12dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:text="Raise by 2 lakhs"/>
+
+    <Button
+        android:id="@+id/raise50"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/shape3"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:text="Raise by 5 lakhs"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:text="Credit"
+        android:id="@+id/credit"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"/>
+
+
+
+</LinearLayout>

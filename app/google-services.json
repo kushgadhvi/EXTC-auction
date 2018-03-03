@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "295918764990",
+    "firebase_url": "https://enthusia-auction.firebaseio.com",
+    "project_id": "enthusia-auction",
+    "storage_bucket": "enthusia-auction.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295918764990:android:8d3e5788f2db8dfe",
+        "android_client_info": {
+          "package_name": "com.gadhvi.extcpl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295918764990-on9skv372230u1s77qeibc2d23bd41on.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gadhvi.extcpl",
+            "certificate_hash": "ca9f2f6f38820ce3398feb2642f7233af098e2f5"
+          }
+        },
+        {
+          "client_id": "295918764990-ide4q62bgk9en8r0atebh4s6aclin4is.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAMjiF8wHPsUJFXq1XC4yTg3JUwejKpDE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295918764990-ide4q62bgk9en8r0atebh4s6aclin4is.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

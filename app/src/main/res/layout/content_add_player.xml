@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.gadhvi.extcpl.AddPlayer"
+    tools:showIn="@layout/activity_add_player"
+    android:background="#40cfece6"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/addimage"
+        android:layout_gravity="top"
+        android:id="@+id/addimage"
+        />
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:inputType="textMultiLine"
+        android:background="@drawable/shape1"
+        android:hint=" Enter Player name....." />
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:inputType="textMultiLine"
+        android:background="@drawable/shape1"
+        android:hint=" Enter Player's Base Price" />
+    <EditText
+        android:id="@+id/skils"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:inputType="textMultiLine"
+        android:background="@drawable/shape1"
+        android:hint=" Enter Player's skill "/>
+    <EditText
+        android:id="@+id/tag"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:inputType="textMultiLine"
+        android:background="@drawable/shape1"
+        android:hint=" Enter Player's tag line" />
+<Button
+    android:id="@+id/submit"
+    android:layout_width="150dp"
+    android:layout_height="50dp"
+    android:background="@drawable/shape2"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="15dp"
+    android:layout_gravity="center"
+    android:text="Submit"
+    />
+
+</LinearLayout>
